@@ -24,19 +24,17 @@ def interpret_audio_features(data):
 
     try:
 
-        prompt = f"""
-        Analyze these acoustic features.
+        prompt = f"""Analyze the provided acoustic features to characterize the auditory profile.
+                    Acoustic Data:
+                    {data}
 
-        Acoustic Data:
-        {data}
+                    Provide a concise empirical analysis detailing:
+                    1. Acoustic Environment: Characterize the ambient setting, reverberant properties, or spatial context indicated by the data.
+                    2. Noise Typology and Characteristics: Identify and classify noise sources (e.g., stationary, transient, broadband, narrowband) and their spectral/temporal properties.
+                    3. Key Acoustic Observations: Detail notable signal phenomena, salient frequency components, or anomalous acoustic events.
 
-        Describe:
-        - sound environment
-        - noise characteristics
-        - acoustic observations
-
-        Keep concise.
-        """
+                    Maintain an objective, academic tone and ensure the analysis is highly concise.
+                    """
 
         response = model.generate_content(
             prompt
