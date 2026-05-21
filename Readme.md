@@ -29,9 +29,9 @@ The system includes:
 
 Replace the image below with your main UI screenshot.
 
-```md
+
 ![Dashboard Preview](images/dashboard.png)
-```
+
 
 ---
 
