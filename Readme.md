@@ -39,9 +39,9 @@ Replace the image below with your main UI screenshot.
 
 Replace the image below with your architecture or workflow diagram.
 
-```md
+
 ![System Architecture](images/architecture.png)
-```
+
 
 ---
 
