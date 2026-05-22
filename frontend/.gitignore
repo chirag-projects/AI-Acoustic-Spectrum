@@ -1,5 +1,5 @@
 #Api
-.env
+backend/.env
 
 # Logs
 logs
