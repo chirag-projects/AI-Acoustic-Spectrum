@@ -1,3 +1,6 @@
+#Api
+.env
+
 # Logs
 logs
 *.log
